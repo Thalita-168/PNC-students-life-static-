@@ -8,10 +8,11 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* padding-top: 80px; */
+    gap: 14%;
 }
 
 .logo {
+    
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -30,7 +31,7 @@ body {
 }
 
 .menu {
-
+    margin: 0 4%;
     display: flex;
     flex-direction: row;
     gap: 28px;
@@ -58,10 +59,12 @@ body {
 }
 
 .welcome {
+    /* margin: 0 4%; */
+
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(135deg, #1c1b1b, rgba(121, 108, 109, 0.6), rgba(29, 21, 7, 0.644)), url("https://www.passerellesnumeriques.org/wp-content/uploads/2024/06/Country-banner1.png");
+    background-image: linear-gradient(135deg, #252424, rgba(121, 108, 109, 0.6), rgba(29, 21, 7, 0.644)), url("https://www.passerellesnumeriques.org/wp-content/uploads/2024/06/Country-banner1.png");
 
 
 
@@ -71,9 +74,9 @@ body {
     position: absolute;
     text-align: center;
     font-weight: bolder;
-    top: 70px;
-    left: 220px;
-    font-size: 64px;
+    top: 20%;
+    left: 30%;
+    font-size: 48px;
     color: white;
     font-weight: 500;
 }
@@ -87,7 +90,7 @@ body {
     font-weight: 90;
     position: absolute;
     text-align: center;
-    top: 200px;
+    top: 30%;
     left: 12px;
     color: white;
     word-spacing: 4px;
@@ -109,16 +112,16 @@ section {
 }
 
 #value {
-    /* background: ; */
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 16px;
     text-align: center;
+
 }
 
-#value h1 {
+#value h3 {
     font-size: 36px;
     padding-top: 18px;
     color: #FAC748;
@@ -176,11 +179,11 @@ section {
 }
 
 #canteen {
+    margin: 0 2%;
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    margin-top: 52px;
     gap: 16px;
 }
 
@@ -192,7 +195,7 @@ section {
 
 .foo {
     flex: 0.6;
-    padding: 0px 0px 0px 32px;
+    padding: 0px 0px 0px 42px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -224,7 +227,7 @@ section {
 .pre2 {
     display: flex;
     width: 30%;
-    height: 30vh;
+    height: 26vh;
     background: #ffffff;
     border-radius: 12px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -243,38 +246,33 @@ section {
 }
 
 table {
+    width: 100%;
     border-collapse: collapse;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    margin-left: 62px;
-
+    margin: 30px 0;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.caption {
-    border: none; 
-    background:white;
-    font-size: 28px;
-    color: #98C1D9;
-    text-align: left;
-}
-tr th,
-tr td {
-    border-right: 1px solid rgba(128, 128, 128, 0.274);
-    padding: 10px 60px;
-    text-align: left;
-
-
+thead tr {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.432);
 }
 
-tr:nth-child(odd) {
-    background: rgba(211, 211, 211, 0.306);
+th,
+td {
+    padding: 12px 15px;
+    border-right: 1px solid rgba(128, 128, 128, 0.514);
 }
 
-tr:nth-child(even) {
-    background-color: #fac74882;
+th.caption {
+    background-color: white;
+    color: #FAC748;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fac74876;
 }
 
 .images {
@@ -297,16 +295,15 @@ tr:nth-child(even) {
 }
 
 #sport {
+    /* background:blue; */
     width: 100%;
     height: 100vh;
-    margin: 68px 0px 64px 0px;
-    padding-top: 72px;
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-#sport h2 {
+#sport h3 {
     text-align: center;
     font-size: 36px;
     color: #FAC748;
@@ -369,10 +366,10 @@ tr:nth-child(even) {
 
 
 #aerobic {
-    margin-top: 50px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 12px;
 
 }
 
@@ -383,55 +380,44 @@ tr:nth-child(even) {
 
 }
 
-.pc {
+#aerobic p {
+    text-align: center;
+}
+
+.im {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0 10% 0 12%;
 }
 
-.card-ae {
-    width: 30%;
-    height: 60vh;
-    background: white;
-    border-radius: 12px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-
+.im img {
+    height: 40%;
+    width: 32%;
+    border: 2px solid #3d5a8069;
+    border-radius: 8px;
 }
-
-.card-ae img {
-    width: 60%;
-    border-radius: 12px;
-    padding: 24px 0px 12px 72px;
-}
-
-.card-ae p {
-    padding: 0px 16px;
-    text-align: justify;
-}
-
-.pc :hover {
+.im img:hover{
     transition: width 2s, height 3s;
-    transform: scale(1.1);
-    ;
+    transform: scale(1.05);
+
+     
+}
+#contact {
+    width: 100%;
+    height: 100vh;
+    margin-left: 4%;
 }
 
-#contact {
-    /* background: #000; */
-    margin-top: 60px;
-    width: 100%;
-
-    /* margin-left: 32px; */
-
+#contact p {
+    text-align: center;
+    color: #3d5a80;
 }
 
 #contact h3 {
     color: #FAC748;
     text-align: center;
-    padding-right: 18px;
+    padding: 0 auto;
     font-size: 36px;
 }
 
@@ -440,7 +426,7 @@ tr:nth-child(even) {
     flex-direction: row;
     gap: 100px;
     width: 100%;
-    margin-top: 60px;
+   margin-top: 10px;
     margin-left: 48px;
 }
 
@@ -476,7 +462,8 @@ tr:nth-child(even) {
     border: none;
 }
 
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
     color: white;
 }
 
@@ -512,15 +499,10 @@ input::placeholder {
 
 }
 
-/* .kru img:hover{
-   transition: width 2s, height 3s;
-    transform: scale(1.05);;
-
-} */
 .google {
     display: flex;
     flex-direction: column;
-    margin-top: 52px;
+    /* margin-top: 52px; */
     gap: 12px;
 
 }
@@ -546,7 +528,7 @@ input::placeholder {
 .footer {
     background: #3d5a80;
     color: white;
-    padding: 78px 32px;
+    padding: 10% 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

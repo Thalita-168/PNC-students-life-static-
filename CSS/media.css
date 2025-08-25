@@ -1,0 +1,355 @@
+@media(min-width:320px) and (max-width:767px){
+    body{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        background:#fafafa;
+    }
+    .logo{
+        display: flex;
+        /* flex-direction: column; */
+        padding: 8px;
+    }
+    .logo img{
+        /* padding-left: 32%; */
+        width: 20%;
+        height: 40px;
+    }
+    .menu li{
+        font-size: 12px;
+    }
+    .welcome{
+        display: flex;
+        
+        justify-content: space-between;
+    }
+    .welcome h1{
+        font-size: 48px;
+        top: 26%;
+        left: 10%;
+    }
+    .welcome h4{
+        padding-right:6px ;
+        top: 45%;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .card{
+        display: flex;
+        gap: 25px;
+    }
+    .card-1{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding-left: 24px;
+    }
+    .card-1-1 ,.card-1-2{
+        width: 90%;
+        height: 50%;
+        
+    }
+    .soli p, .trust p, .respon p{
+        font-size: 12px;
+    }
+    .foodie{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .foo{
+        padding-right: 28px;
+    }
+    .pre2{
+        width: 46%;
+        height: 90%;
+    }.pre2 p{
+        font-size: 12px;
+        width: 50%;
+    }
+    #sport{
+        margin-top: 26%;
+    }
+    .pic_s{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        /* margin-top: ; */
+    }
+    .s1{
+        margin-left: 5%;
+        height: 14%;
+        width: 90%;
+    }
+    .bene{
+        text-align: justify;
+        padding: 0 8px;
+    }
+    #aerobic{
+        margin-top: 55%;
+    }
+    .im{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        
+    }
+    .im img{
+        width: 45%;
+        height: 20vh;
+        border: none;
+        border-radius: 8px;
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-top: 8%;
+    }
+    .form{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .kru{
+        margin-right: 62px;
+    }
+    .kru img{
+       width: 90%;
+       height: 100%;
+       
+    }
+    .huh{
+        width: 60%;
+        height: 50%;
+        margin-top: 32px;
+    }
+    .val ul li, .con div, .major ul li,.department ul li{
+        font-size: 12px;
+    }
+    .val{
+        margin-left: 18px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        background: #fafafa;
+    }
+
+    .logo {
+        display: flex;
+        padding: 18px 24px;
+        flex-direction: column;
+    }
+
+    .logo img {
+        width: 14%;
+        height: 50px;
+    }
+    .menu{
+        display: flex;
+        font-weight: bold;
+        font-size: 32px;
+        flex-direction: row;
+        gap: 42px;
+        margin-left: 16%;
+    }
+    .menu li {
+        font-size: 14px;
+    }
+
+    .welcome {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .welcome h1 {
+        font-size: 56px;
+        top: 30%;
+        left: 12%;
+    }
+
+    .welcome h4 {
+        margin-left: 10%;
+        top: 40%;
+        font-size: 22px;
+        width: 80%;
+        text-align: justify;
+    }
+
+    .card {
+        display: flex;
+        gap: 32px;
+        padding: 0 24px;
+    }
+
+    .card-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        padding-left: 36px;
+    }
+
+    .card-1-1,
+    .card-1-2 {
+        width: 85%;
+        height: 180px;
+    }
+
+    .soli p,
+    .trust p,
+    .respon p {
+        font-size: 14px;
+    }
+
+    .foodie {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .pre1{
+        display: flex;
+        gap: 8px;
+    }
+    .foo {
+        padding-right: 30px;
+    }
+
+    .pre2 {
+        width: 45%;
+        height: 100%;
+    
+    }
+
+    .pre2 p {
+        font-size: 22px;
+        width: 55%;
+    }
+
+    #sport {
+        margin-top: 8%;
+        height: 100%;
+    }
+
+    .pic_s {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        height: 50%;
+    }
+
+    .s1 {
+        margin-left: 5%;
+        height: 70%;
+        width: 90%;
+    }
+
+    .bene {
+        text-align: justify;
+        padding: 0 12px;
+    }
+    .letter p{
+        background: rgba(255, 255, 255, 0.623);
+        color: rgb(41, 39, 39);
+        padding: 4px 12px;
+    }
+   
+    #aerobic {
+    margin-top: 70%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+
+  #aerobic h3 {
+    font-size: 32px;
+    margin-right: 10%;
+    text-align: center;
+    color: #FAC748;
+  }
+
+  #aerobic p {
+    margin-right: 10%;
+
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+    padding: 0 10px;
+  }
+
+  .im {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 0 5%;
+    margin-right: 4%;
+
+  }
+
+  .im img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  #contact {
+    margin-top: 10%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+
+  #contact h3 {
+    margin-right: 10%;
+    font-size: 32px;
+    color: #FAC748;
+    text-align: center;
+  }
+
+  #contact p {
+    margin-right: 10%;
+
+    font-size: 16px;
+    text-align: center;
+    color: #3d5a80;
+  }
+
+  .form {
+     margin-right: 20%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 32px;
+    align-items: center;
+    width: 100%;
+  }
+
+  .huh {
+    width: 80%;
+    padding: 24px;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+  .kru {
+    width: 90%;
+    text-align: center;
+  }
+
+  .kru img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  .google{
+    margin-top: 4%;
+  }
+}
+
