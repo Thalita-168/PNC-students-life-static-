@@ -10,9 +10,9 @@ body {
     flex-direction: column;
     gap: 14%;
 }
+/* Start_header */
 
 .logo {
-    
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -59,8 +59,6 @@ body {
 }
 
 .welcome {
-    /* margin: 0 4%; */
-
     position: relative;
     width: 100%;
     height: 100vh;
@@ -110,10 +108,10 @@ section {
     width: 100%;
     height: 100vh;
 }
-
+/* Start_Values */
 #value {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -175,15 +173,15 @@ section {
 .trust h2,
 .respon h2,
 .soli h2 {
-    color: #98C1D9;
+    color: #3d5a80;
 }
-
+/* Start_Canteen */
 #canteen {
     margin: 0 2%;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     gap: 16px;
 }
 
@@ -209,6 +207,7 @@ section {
 .foo p {
     text-align: justify;
     font-size: 18px;
+    color: #3d5a80;
 }
 
 .prepare {
@@ -251,6 +250,7 @@ table {
     margin: 30px 32px 0px 32px;
     font-size: 1rem;
     text-align: center;
+    
 }
 thead tr{
     background: #fac74875;
@@ -293,11 +293,10 @@ tbody tr:nth-child(odd) {
     width: 10%;
     height: 20%;
 }
-
+/* Start_sport */
 #sport {
-    /* background:blue; */
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -308,9 +307,12 @@ tbody tr:nth-child(odd) {
     font-size: 36px;
     color: #FAC748;
 }
-
+/* #sport p{
+    color: #3d5a80;
+} */
 .bene {
     text-align: center;
+    color: #3d5a80;
 }
 
 .pic_s {
@@ -344,11 +346,9 @@ tbody tr:nth-child(odd) {
 
 
 }
-
 .letter h3 {
     color: #081e35;
 }
-
 .letter p {
     width: 80%;
     font-size: small;
@@ -364,9 +364,10 @@ tbody tr:nth-child(odd) {
 
 }
 
-
+/* Start_aerobic */
 #aerobic {
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -384,6 +385,7 @@ tbody tr:nth-child(odd) {
     text-align: center;
     width: 88%;
     margin-left: 8%;
+    color: #3d5a80;
 }
 
 .im {
@@ -405,9 +407,10 @@ tbody tr:nth-child(odd) {
 
      
 }
+/* Start_contact */
 #contact {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin-left: 4%;
 }
 
@@ -503,8 +506,10 @@ textarea::placeholder {
     box-shadow: rgba(99, 99, 99, 0.352) 0px 2px 8px 0px;
 
 }
-
+/* Start location */
 .google {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     /* margin-top: 52px; */
@@ -514,7 +519,7 @@ textarea::placeholder {
 
 .google p {
     text-align: center;
-    color: #98C1D9;
+    color: #3d5a80;
     font-size: 20px;
 }
 
@@ -529,8 +534,10 @@ textarea::placeholder {
     height: 100vh;
 
 }
-
+/* Start_footer */
 .footer {
+    width: 100%;
+    height: 100%;
     background: #3d5a80;
     color: white;
     padding: 10% 0;
