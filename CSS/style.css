@@ -246,22 +246,19 @@ section {
 }
 
 table {
-    width: 100%;
+    width: 90%;
     border-collapse: collapse;
-    margin: 30px 0;
+    margin: 30px 32px 0px 32px;
     font-size: 1rem;
     text-align: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-
-thead tr {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.432);
+thead tr{
+    background: #fac74875;
 }
-
 th,
 td {
-    padding: 12px 15px;
-    border-right: 1px solid rgba(128, 128, 128, 0.514);
+    padding: 12px 12px;
+    border-right: 1px solid rgba(128, 128, 128, 0.263);
 }
 
 th.caption {
@@ -272,7 +269,10 @@ th.caption {
 }
 
 tbody tr:nth-child(even) {
-    background-color: #fac74876;
+    background-color: #fac74885;
+}
+tbody tr:nth-child(odd) {
+    background-color: rgba(211, 211, 211, 0.37);
 }
 
 .images {
@@ -382,6 +382,8 @@ tbody tr:nth-child(even) {
 
 #aerobic p {
     text-align: center;
+    width: 88%;
+    margin-left: 8%;
 }
 
 .im {
@@ -412,6 +414,7 @@ tbody tr:nth-child(even) {
 #contact p {
     text-align: center;
     color: #3d5a80;
+    margin-right: 8%;
 }
 
 #contact h3 {
@@ -419,6 +422,8 @@ tbody tr:nth-child(even) {
     text-align: center;
     padding: 0 auto;
     font-size: 36px;
+    margin-right: 8%;
+
 }
 
 .form {
@@ -426,8 +431,8 @@ tbody tr:nth-child(even) {
     flex-direction: row;
     gap: 100px;
     width: 100%;
-   margin-top: 10px;
-    margin-left: 48px;
+    margin-top: 10px;
+    margin-left: 32px;
 }
 
 .huh {
@@ -479,7 +484,7 @@ textarea::placeholder {
 .btn {
     width: 40%;
     padding: 10px;
-    margin-left: 88px;
+    margin-left: 25%;
     color: white;
     background: #FAC748;
     border-radius: 8px;
@@ -493,7 +498,7 @@ textarea::placeholder {
 
 .kru img {
     width: 80%;
-    height: 58vh;
+    height: 50vh;
     border-radius: 12px;
     box-shadow: rgba(99, 99, 99, 0.352) 0px 2px 8px 0px;
 
