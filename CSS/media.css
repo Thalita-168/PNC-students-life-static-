@@ -12,10 +12,10 @@
     .logo img{
         /* padding-left: 32%; */
         width: 20%;
-        height: 40px;
+        height: 36px;
     }
     .menu li{
-        font-size: 12px;
+        font-size: 10px;
     }
     .welcome{
         display: flex;
@@ -62,7 +62,7 @@
         width: 46%;
         height: 90%;
     }.pre2 p{
-        font-size: 12px;
+        font-size: 10px;
         width: 50%;
     }
     #sport{
@@ -79,12 +79,27 @@
         height: 14%;
         width: 90%;
     }
+    table{
+        width: 80%;
+        margin: 30px 40px 0px 32px;
+        
+    }
+    th,
+td {
+    font-size: 12px;
+    padding: 8px 8px;
+    border-right: 1px solid rgba(128, 128, 128, 0.263);
+}
     .bene{
         text-align: justify;
         padding: 0 8px;
     }
     #aerobic{
         margin-top: 55%;
+    }
+    #aerobic p{
+        text-align: justify;
+        font-size: 12px;
     }
     .im{
         display: flex;
@@ -108,6 +123,10 @@
         display: flex;
         flex-direction: column-reverse;
         gap: 0;
+    }
+    #contact p{
+        text-align: justify;
+        font-size: 12px;
     }
     .kru{
         margin-right: 62px;
@@ -229,6 +248,7 @@
 
     #sport {
         margin-top: 8%;
+        margin-bottom: 40%;
         height: 100%;
     }
 
@@ -236,7 +256,7 @@
         display: flex;
         flex-direction: column;
         gap: 12px;
-        height: 50%;
+        height: 70%;
     }
 
     .s1 {
@@ -256,7 +276,7 @@
     }
    
     #aerobic {
-    margin-top: 70%;
+    margin-top: 100%;
     padding: 0 5%;
     display: flex;
     flex-direction: column;
@@ -313,8 +333,7 @@
   }
 
   #contact p {
-    margin-right: 10%;
-
+    margin-right: 20%;
     font-size: 16px;
     text-align: center;
     color: #3d5a80;
@@ -347,7 +366,7 @@
     border-radius: 12px;
   }
   .google{
-    margin-top: 4%;
+    margin-top: 10%;
   }
 }
 

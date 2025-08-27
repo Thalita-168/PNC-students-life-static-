@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 14%;
+    background: rgba(211, 211, 211, 0.151);
 }
 /* Start_header */
 
@@ -139,10 +140,13 @@ section {
     flex-direction: row;
     justify-content: space-around;
 
+
 }
 
 .card-1-1,
 .card-1-2 {
+    border-radius: 8px;
+    background: white;
     width: 40%;
     height: 200px;
     padding: 4px;
@@ -208,6 +212,7 @@ section {
     text-align: justify;
     font-size: 18px;
     color: #3d5a80;
+    margin-bottom: 12px;
 }
 
 .prepare {
@@ -241,7 +246,7 @@ section {
 .pre2 p {
     font-size: 14px;
     width: 40%;
-    padding: 24px 12px 2px 0px;
+    padding: 14px 12px 8px 0px;
 }
 
 table {
@@ -262,7 +267,7 @@ td {
 }
 
 th.caption {
-    background-color: white;
+     background: #f8f8f8;
     color: #FAC748;
     font-weight: bold;
     font-size: 1.1rem;
